@@ -6,4 +6,5 @@
  *
  */
 module conversores {
+	requires java.desktop;
 }
