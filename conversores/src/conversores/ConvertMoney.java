@@ -92,8 +92,50 @@ do {
 		
 	}	//monedas
 	
-	
-	
+	if ("TEMPERATURA".equals(conversiones)) {
+		
+		temperatura = Double.parseDouble(JOptionPane.showInputDialog("Ingrese la cantidad que desea convertir"));
+		String grados = (JOptionPane.showInputDialog(null,"A que grados desea convertir","Grados",
+		JOptionPane.PLAIN_MESSAGE,null,new Object[] {"Grados Celcius a Grados Farenheit","Grados Celcius a Kelvin","Grados Farenheit a grados Celcius",
+				"Grados Kelvin a Grados Celcius","Grados Kelvin a Grados Farenheit"},
+				"Selecciona")).toString();
+		
+		if ("Grados Celcius a Grados Farenheit".equals(grados))	{
+		conversion = (temperatura*1.8)+32;
+		JOptionPane.showMessageDialog(null,"Tienes "+String.format("%.2f",conversion)+"°F");
+		}
+		if ("Grados Celcius a Kelvin".equals(grados))	{
+		conversion = (temperatura)+273.15;
+		JOptionPane.showMessageDialog(null,"Tienes "+String.format("%.2f",conversion)+"°K");
+		}
+		if ("Grados Farenheit a grados Celcius".equals(grados))	{
+		conversion = (temperatura-32)*5/9;
+		JOptionPane.showMessageDialog(null,"Tienes "+String.format("%.2f",conversion)+"°C");
+		}	
+		if ("Grados Kelvin a Grados Celcius".equals(grados))	{
+		conversion = (temperatura-273.15);
+		JOptionPane.showMessageDialog(null,"Tienes "+String.format("%.2f",conversion)+"°C");
+		}
+		if ("Grados Kelvin a Grados Farenheit".equals(grados))	{
+		conversion = (temperatura-273.15)*9/5+32;
+		JOptionPane.showMessageDialog(null,"Tienes "+String.format("%.2f",conversion)+"°F");
+		}
+		else{
+			salida =JOptionPane.showConfirmDialog(null," Alguna otra operacion ?");	
+			switch(salida) {
+			
+				case 1:
+				JOptionPane.showMessageDialog(null,"Programa Finalizado ");
+				break;
+			    case 2:
+				JOptionPane.showMessageDialog(null,"Programa Finalizado ");
+				break;
+				}			
+			
+		}
+
+
+	}
 }while(salida <1);
 
 
