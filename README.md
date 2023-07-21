@@ -27,3 +27,9 @@ Convert Money  es  un programa de conversiones que consta con dos opciones:
 
   VIDEO
   https://www.loom.com/share/f95c563e53eb42469e82b46c8067d6be
+
+
+STATUS :  Programa Terminado.
+
+Autor: César Augusto Carcaño bringas 
+
