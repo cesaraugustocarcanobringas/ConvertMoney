@@ -31,5 +31,5 @@ Convert Money  es  un programa de conversiones que consta con dos opciones:
 
 STATUS :  Programa Terminado.
 
-Autor: César Augusto Carcaño bringas 
+Autor: César Augusto Carcaño Bringas.
 
