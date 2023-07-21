@@ -19,6 +19,7 @@ Convert Money  es  un programa de conversiones que consta con dos opciones:
           - De Kelvin a Celcius
           - De Kelvin a Farenheit
 
-      Después de la conversión, el programa pregunta si desea otra operación  [SI / NO / CANCEL] ,
+
+   Después de la conversión, el programa pregunta si desea otra operación  (SI / NO / CANCEL) ,
   si  decide SI,  le  mandara  al  menú principal,  Si elije NO  o  CANCEL,  arrojará  el  mensaje 
   "Programa Finalizado".
