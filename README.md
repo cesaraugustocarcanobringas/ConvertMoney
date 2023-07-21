@@ -31,6 +31,7 @@ Convert Money  es  un programa de conversiones que consta con dos opciones:
 
 STATUS :  Programa Terminado.
 
-Autor: César Augusto Carcaño Bringas.![160B387F-1664-45D1-88F6-43E48867D3A3 151](https://github.com/cesaraugustocarcanobringas/ConvertMoney/assets/132301236/056e1751-2442-40b4-acd5-c34b1878762a)
+Autor: César Augusto Carcaño Bringas.
+(https://github.com/cesaraugustocarcanobringas/ConvertMoney/assets/132301236/056e1751-2442-40b4-acd5-c34b1878762a)
 
 
